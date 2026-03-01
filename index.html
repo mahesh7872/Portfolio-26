@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Maheshwar</div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hi, I'm <span>Maheshwar</span></h1>
+            <h2 class="hero-subtitle">Web Developer</h2>
+            <p class="hero-description">I create beautiful and functional web applications that solve real problems.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="Images/mahesh-self.jpg" alt="Your Profile">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate developer from Kolkata with 3+ years of experience building modern web
+                        applications. I love turning complex problems into simple, beautiful solutions.</p>
+                    <p>I specialize in JavaScript frameworks and have worked with startups and enterprises to deliver
+                        scalable solutions.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>20+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat">
+                        <h3>1+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat">
+                        <h3>5+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-bar">
+                        <span>HTML/CSS</span>
+                        <div class="skill-progress" data-width="95%"></div>
+                    </div>
+                    <div class="skill-bar">
+                        <span>JavaScript</span>
+                        <div class="skill-progress" data-width="90%"></div>
+                    </div>
+                    <div class="skill-bar">
+                        <span>Bootstrap</span>
+                        <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                    <div class="skill-bar">
+                        <span>React</span>
+                        <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-bar">
+                        <span>PHP</span>
+                        <div class="skill-progress" data-width="80%"></div>
+                    </div>
+                    <div class="skill-bar">
+                        <span>MySql</span>
+                        <div class="skill-progress" data-width="75%"></div>
+                    </div>
+                       <div class="skill-category">
+                    <h3>Miscellaneous</h3>
+                    <div class="skill-bar">
+                        <span>Ms Excel</span>
+                        <div class="skill-progress" data-width="80%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Recent Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="./Images/ecommerse.avif" alt="Project 1">
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Full-stack e-commerce solution with payment integration and admin dashboard.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more project cards -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
